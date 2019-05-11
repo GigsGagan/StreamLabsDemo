@@ -7,52 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEA64EEC22866B07000D1F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64EEB22866B07000D1F38 /* AppDelegate.swift */; };
-		CEA64EEE22866B07000D1F38 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64EED22866B07000D1F38 /* HomeViewController.swift */; };
-		CEA64EF122866B07000D1F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA64EEF22866B07000D1F38 /* Main.storyboard */; };
-		CEA64EF322866B08000D1F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA64EF222866B08000D1F38 /* Assets.xcassets */; };
-		CEA64EF622866B08000D1F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA64EF422866B08000D1F38 /* LaunchScreen.storyboard */; };
-		CEA64F0122866B08000D1F38 /* StreamLabsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F0022866B08000D1F38 /* StreamLabsDemoTests.swift */; };
-		CEA64F0C22866BED000D1F38 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F0B22866BED000D1F38 /* UsersViewController.swift */; };
-		CEA64F1122866CBB000D1F38 /* UserCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA64F0F22866CBB000D1F38 /* UserCollectionCell.xib */; };
-		CEA64F1622867AC6000D1F38 /* UserCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F1522867AC6000D1F38 /* UserCollectionCell.swift */; };
+		CE68A9072285843D00DE8E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A9062285843D00DE8E39 /* AppDelegate.swift */; };
+		CE68A90C2285843D00DE8E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE68A90A2285843D00DE8E39 /* Main.storyboard */; };
+		CE68A90E2285843E00DE8E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE68A90D2285843E00DE8E39 /* Assets.xcassets */; };
+		CE68A9112285843E00DE8E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE68A90F2285843E00DE8E39 /* LaunchScreen.storyboard */; };
+		CE68A91C2285843E00DE8E39 /* StreamLabsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A91B2285843E00DE8E39 /* StreamLabsDemoTests.swift */; };
+		CE68A927228586C800DE8E39 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A926228586C800DE8E39 /* HomeViewController.swift */; };
+		CE68A94622859F8D00DE8E39 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A94522859F8D00DE8E39 /* HomeTableViewCell.swift */; };
+		CE68A9482285A0CC00DE8E39 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE68A9472285A0CC00DE8E39 /* HomeTableViewCell.xib */; };
+		CE68A94A2285A9EB00DE8E39 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68A9492285A9EB00DE8E39 /* CommentsViewController.swift */; };
+		CEA64F4A228689D9000D1F38 /* UserCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F47228689D9000D1F38 /* UserCollectionCell.swift */; };
+		CEA64F4B228689D9000D1F38 /* UserCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA64F48228689D9000D1F38 /* UserCollectionCell.xib */; };
+		CEA64F4C228689D9000D1F38 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F49228689D9000D1F38 /* UsersViewController.swift */; };
+		CEA64F4E22868C82000D1F38 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F4D22868C82000D1F38 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CEA64EFD22866B08000D1F38 /* PBXContainerItemProxy */ = {
+		CE68A9182285843E00DE8E39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CEA64EE022866B07000D1F38 /* Project object */;
+			containerPortal = CE68A8FB2285843D00DE8E39 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEA64EE722866B07000D1F38;
+			remoteGlobalIDString = CE68A9022285843D00DE8E39;
 			remoteInfo = StreamLabsDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEA64EE822866B07000D1F38 /* StreamLabsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamLabsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEA64EEB22866B07000D1F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEA64EED22866B07000D1F38 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		CEA64EF022866B07000D1F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CEA64EF222866B08000D1F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CEA64EF522866B08000D1F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CEA64EF722866B08000D1F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEA64EFC22866B08000D1F38 /* StreamLabsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamLabsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEA64F0022866B08000D1F38 /* StreamLabsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamLabsDemoTests.swift; sourceTree = "<group>"; };
-		CEA64F0222866B08000D1F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEA64F0B22866BED000D1F38 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
-		CEA64F0F22866CBB000D1F38 /* UserCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCollectionCell.xib; sourceTree = "<group>"; };
-		CEA64F1522867AC6000D1F38 /* UserCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionCell.swift; sourceTree = "<group>"; };
+		CE68A9032285843D00DE8E39 /* StreamLabsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamLabsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE68A9062285843D00DE8E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE68A90B2285843D00DE8E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE68A90D2285843E00DE8E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE68A9102285843E00DE8E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE68A9122285843E00DE8E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE68A9172285843E00DE8E39 /* StreamLabsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamLabsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE68A91B2285843E00DE8E39 /* StreamLabsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamLabsDemoTests.swift; sourceTree = "<group>"; };
+		CE68A91D2285843E00DE8E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE68A926228586C800DE8E39 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE68A94522859F8D00DE8E39 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		CE68A9472285A0CC00DE8E39 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		CE68A9492285A9EB00DE8E39 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		CEA64F47228689D9000D1F38 /* UserCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionCell.swift; sourceTree = "<group>"; };
+		CEA64F48228689D9000D1F38 /* UserCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCollectionCell.xib; sourceTree = "<group>"; };
+		CEA64F49228689D9000D1F38 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		CEA64F4D22868C82000D1F38 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CEA64EE522866B07000D1F38 /* Frameworks */ = {
+		CE68A9002285843D00DE8E39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEA64EF922866B08000D1F38 /* Frameworks */ = {
+		CE68A9142285843E00DE8E39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,45 +70,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEA64EDF22866B07000D1F38 = {
+		CE68A8FA2285843D00DE8E39 = {
 			isa = PBXGroup;
 			children = (
-				CEA64EEA22866B07000D1F38 /* StreamLabsDemo */,
-				CEA64EFF22866B08000D1F38 /* StreamLabsDemoTests */,
-				CEA64EE922866B07000D1F38 /* Products */,
+				CE68A9052285843D00DE8E39 /* StreamLabsDemo */,
+				CE68A91A2285843E00DE8E39 /* StreamLabsDemoTests */,
+				CE68A9042285843D00DE8E39 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CEA64EE922866B07000D1F38 /* Products */ = {
+		CE68A9042285843D00DE8E39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEA64EE822866B07000D1F38 /* StreamLabsDemo.app */,
-				CEA64EFC22866B08000D1F38 /* StreamLabsDemoTests.xctest */,
+				CE68A9032285843D00DE8E39 /* StreamLabsDemo.app */,
+				CE68A9172285843E00DE8E39 /* StreamLabsDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEA64EEA22866B07000D1F38 /* StreamLabsDemo */ = {
+		CE68A9052285843D00DE8E39 /* StreamLabsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CEA64EEB22866B07000D1F38 /* AppDelegate.swift */,
-				CEA64F1522867AC6000D1F38 /* UserCollectionCell.swift */,
-				CEA64F0F22866CBB000D1F38 /* UserCollectionCell.xib */,
-				CEA64F0B22866BED000D1F38 /* UsersViewController.swift */,
-				CEA64EED22866B07000D1F38 /* HomeViewController.swift */,
-				CEA64EEF22866B07000D1F38 /* Main.storyboard */,
-				CEA64EF222866B08000D1F38 /* Assets.xcassets */,
-				CEA64EF422866B08000D1F38 /* LaunchScreen.storyboard */,
-				CEA64EF722866B08000D1F38 /* Info.plist */,
+				CE68A9062285843D00DE8E39 /* AppDelegate.swift */,
+				CEA64F4D22868C82000D1F38 /* UserModel.swift */,
+				CEA64F47228689D9000D1F38 /* UserCollectionCell.swift */,
+				CEA64F48228689D9000D1F38 /* UserCollectionCell.xib */,
+				CEA64F49228689D9000D1F38 /* UsersViewController.swift */,
+				CE68A94522859F8D00DE8E39 /* HomeTableViewCell.swift */,
+				CE68A9472285A0CC00DE8E39 /* HomeTableViewCell.xib */,
+				CE68A9492285A9EB00DE8E39 /* CommentsViewController.swift */,
+				CE68A926228586C800DE8E39 /* HomeViewController.swift */,
+				CE68A90A2285843D00DE8E39 /* Main.storyboard */,
+				CE68A90D2285843E00DE8E39 /* Assets.xcassets */,
+				CE68A90F2285843E00DE8E39 /* LaunchScreen.storyboard */,
+				CE68A9122285843E00DE8E39 /* Info.plist */,
 			);
 			path = StreamLabsDemo;
 			sourceTree = "<group>";
 		};
-		CEA64EFF22866B08000D1F38 /* StreamLabsDemoTests */ = {
+		CE68A91A2285843E00DE8E39 /* StreamLabsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEA64F0022866B08000D1F38 /* StreamLabsDemoTests.swift */,
-				CEA64F0222866B08000D1F38 /* Info.plist */,
+				CE68A91B2285843E00DE8E39 /* StreamLabsDemoTests.swift */,
+				CE68A91D2285843E00DE8E39 /* Info.plist */,
 			);
 			path = StreamLabsDemoTests;
 			sourceTree = "<group>";
@@ -108,13 +120,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEA64EE722866B07000D1F38 /* StreamLabsDemo */ = {
+		CE68A9022285843D00DE8E39 /* StreamLabsDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEA64F0522866B08000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemo" */;
+			buildConfigurationList = CE68A9202285843E00DE8E39 /* Build configuration list for PBXNativeTarget "StreamLabsDemo" */;
 			buildPhases = (
-				CEA64EE422866B07000D1F38 /* Sources */,
-				CEA64EE522866B07000D1F38 /* Frameworks */,
-				CEA64EE622866B07000D1F38 /* Resources */,
+				CE68A8FF2285843D00DE8E39 /* Sources */,
+				CE68A9002285843D00DE8E39 /* Frameworks */,
+				CE68A9012285843D00DE8E39 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -122,47 +134,47 @@
 			);
 			name = StreamLabsDemo;
 			productName = StreamLabsDemo;
-			productReference = CEA64EE822866B07000D1F38 /* StreamLabsDemo.app */;
+			productReference = CE68A9032285843D00DE8E39 /* StreamLabsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEA64EFB22866B08000D1F38 /* StreamLabsDemoTests */ = {
+		CE68A9162285843E00DE8E39 /* StreamLabsDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEA64F0822866B08000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemoTests" */;
+			buildConfigurationList = CE68A9232285843E00DE8E39 /* Build configuration list for PBXNativeTarget "StreamLabsDemoTests" */;
 			buildPhases = (
-				CEA64EF822866B08000D1F38 /* Sources */,
-				CEA64EF922866B08000D1F38 /* Frameworks */,
-				CEA64EFA22866B08000D1F38 /* Resources */,
+				CE68A9132285843E00DE8E39 /* Sources */,
+				CE68A9142285843E00DE8E39 /* Frameworks */,
+				CE68A9152285843E00DE8E39 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEA64EFE22866B08000D1F38 /* PBXTargetDependency */,
+				CE68A9192285843E00DE8E39 /* PBXTargetDependency */,
 			);
 			name = StreamLabsDemoTests;
 			productName = StreamLabsDemoTests;
-			productReference = CEA64EFC22866B08000D1F38 /* StreamLabsDemoTests.xctest */;
+			productReference = CE68A9172285843E00DE8E39 /* StreamLabsDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CEA64EE022866B07000D1F38 /* Project object */ = {
+		CE68A8FB2285843D00DE8E39 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Gaganpreet Singh";
 				TargetAttributes = {
-					CEA64EE722866B07000D1F38 = {
+					CE68A9022285843D00DE8E39 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					CEA64EFB22866B08000D1F38 = {
+					CE68A9162285843E00DE8E39 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = CEA64EE722866B07000D1F38;
+						TestTargetID = CE68A9022285843D00DE8E39;
 					};
 				};
 			};
-			buildConfigurationList = CEA64EE322866B07000D1F38 /* Build configuration list for PBXProject "StreamLabsDemo" */;
+			buildConfigurationList = CE68A8FE2285843D00DE8E39 /* Build configuration list for PBXProject "StreamLabsDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,30 +182,31 @@
 				en,
 				Base,
 			);
-			mainGroup = CEA64EDF22866B07000D1F38;
-			productRefGroup = CEA64EE922866B07000D1F38 /* Products */;
+			mainGroup = CE68A8FA2285843D00DE8E39;
+			productRefGroup = CE68A9042285843D00DE8E39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEA64EE722866B07000D1F38 /* StreamLabsDemo */,
-				CEA64EFB22866B08000D1F38 /* StreamLabsDemoTests */,
+				CE68A9022285843D00DE8E39 /* StreamLabsDemo */,
+				CE68A9162285843E00DE8E39 /* StreamLabsDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CEA64EE622866B07000D1F38 /* Resources */ = {
+		CE68A9012285843D00DE8E39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA64F1122866CBB000D1F38 /* UserCollectionCell.xib in Resources */,
-				CEA64EF622866B08000D1F38 /* LaunchScreen.storyboard in Resources */,
-				CEA64EF322866B08000D1F38 /* Assets.xcassets in Resources */,
-				CEA64EF122866B07000D1F38 /* Main.storyboard in Resources */,
+				CEA64F4B228689D9000D1F38 /* UserCollectionCell.xib in Resources */,
+				CE68A9112285843E00DE8E39 /* LaunchScreen.storyboard in Resources */,
+				CE68A90E2285843E00DE8E39 /* Assets.xcassets in Resources */,
+				CE68A9482285A0CC00DE8E39 /* HomeTableViewCell.xib in Resources */,
+				CE68A90C2285843D00DE8E39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEA64EFA22866B08000D1F38 /* Resources */ = {
+		CE68A9152285843E00DE8E39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,48 +216,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CEA64EE422866B07000D1F38 /* Sources */ = {
+		CE68A8FF2285843D00DE8E39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA64EEE22866B07000D1F38 /* HomeViewController.swift in Sources */,
-				CEA64F0C22866BED000D1F38 /* UsersViewController.swift in Sources */,
-				CEA64F1622867AC6000D1F38 /* UserCollectionCell.swift in Sources */,
-				CEA64EEC22866B07000D1F38 /* AppDelegate.swift in Sources */,
+				CE68A927228586C800DE8E39 /* HomeViewController.swift in Sources */,
+				CEA64F4E22868C82000D1F38 /* UserModel.swift in Sources */,
+				CE68A9072285843D00DE8E39 /* AppDelegate.swift in Sources */,
+				CE68A94622859F8D00DE8E39 /* HomeTableViewCell.swift in Sources */,
+				CEA64F4A228689D9000D1F38 /* UserCollectionCell.swift in Sources */,
+				CEA64F4C228689D9000D1F38 /* UsersViewController.swift in Sources */,
+				CE68A94A2285A9EB00DE8E39 /* CommentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEA64EF822866B08000D1F38 /* Sources */ = {
+		CE68A9132285843E00DE8E39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA64F0122866B08000D1F38 /* StreamLabsDemoTests.swift in Sources */,
+				CE68A91C2285843E00DE8E39 /* StreamLabsDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEA64EFE22866B08000D1F38 /* PBXTargetDependency */ = {
+		CE68A9192285843E00DE8E39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEA64EE722866B07000D1F38 /* StreamLabsDemo */;
-			targetProxy = CEA64EFD22866B08000D1F38 /* PBXContainerItemProxy */;
+			target = CE68A9022285843D00DE8E39 /* StreamLabsDemo */;
+			targetProxy = CE68A9182285843E00DE8E39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CEA64EEF22866B07000D1F38 /* Main.storyboard */ = {
+		CE68A90A2285843D00DE8E39 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEA64EF022866B07000D1F38 /* Base */,
+				CE68A90B2285843D00DE8E39 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CEA64EF422866B08000D1F38 /* LaunchScreen.storyboard */ = {
+		CE68A90F2285843E00DE8E39 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEA64EF522866B08000D1F38 /* Base */,
+				CE68A9102285843E00DE8E39 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -252,7 +268,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CEA64F0322866B08000D1F38 /* Debug */ = {
+		CE68A91E2285843E00DE8E39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,7 +329,7 @@
 			};
 			name = Debug;
 		};
-		CEA64F0422866B08000D1F38 /* Release */ = {
+		CE68A91F2285843E00DE8E39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +384,7 @@
 			};
 			name = Release;
 		};
-		CEA64F0622866B08000D1F38 /* Debug */ = {
+		CE68A9212285843E00DE8E39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -379,7 +395,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Dev.StreamLabsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.StreamLabsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -387,7 +403,7 @@
 			};
 			name = Debug;
 		};
-		CEA64F0722866B08000D1F38 /* Release */ = {
+		CE68A9222285843E00DE8E39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -398,7 +414,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Dev.StreamLabsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.StreamLabsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -406,7 +422,7 @@
 			};
 			name = Release;
 		};
-		CEA64F0922866B08000D1F38 /* Debug */ = {
+		CE68A9242285843E00DE8E39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -419,7 +435,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Dev.StreamLabsDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.StreamLabsDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -427,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		CEA64F0A22866B08000D1F38 /* Release */ = {
+		CE68A9252285843E00DE8E39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -440,7 +456,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Dev.StreamLabsDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.StreamLabsDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,34 +467,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEA64EE322866B07000D1F38 /* Build configuration list for PBXProject "StreamLabsDemo" */ = {
+		CE68A8FE2285843D00DE8E39 /* Build configuration list for PBXProject "StreamLabsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEA64F0322866B08000D1F38 /* Debug */,
-				CEA64F0422866B08000D1F38 /* Release */,
+				CE68A91E2285843E00DE8E39 /* Debug */,
+				CE68A91F2285843E00DE8E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEA64F0522866B08000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemo" */ = {
+		CE68A9202285843E00DE8E39 /* Build configuration list for PBXNativeTarget "StreamLabsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEA64F0622866B08000D1F38 /* Debug */,
-				CEA64F0722866B08000D1F38 /* Release */,
+				CE68A9212285843E00DE8E39 /* Debug */,
+				CE68A9222285843E00DE8E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEA64F0822866B08000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemoTests" */ = {
+		CE68A9232285843E00DE8E39 /* Build configuration list for PBXNativeTarget "StreamLabsDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEA64F0922866B08000D1F38 /* Debug */,
-				CEA64F0A22866B08000D1F38 /* Release */,
+				CE68A9242285843E00DE8E39 /* Debug */,
+				CE68A9252285843E00DE8E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CEA64EE022866B07000D1F38 /* Project object */;
+	rootObject = CE68A8FB2285843D00DE8E39 /* Project object */;
 }

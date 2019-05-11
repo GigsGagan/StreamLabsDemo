@@ -61,6 +61,7 @@ class UserCollectionCell: UICollectionViewCell {
             userImageView.image = UIImage(named: userDetails.name)
             
             if userDetails.type == UserType.Contest.rawValue {
+                userBorderImageView.image = UIImage(named: "")
                 notificationImageView.image = UIImage(named: "star2")
                 notificationNoLabel.isHidden = true
                 userLabel.textColor = UIColor.white
@@ -78,9 +79,12 @@ class UserCollectionCell: UICollectionViewCell {
                     notificationImageView.image = UIImage(named: "")
                     userLabel.textColor = UIColor.white
                 } else {
+                    userBorderImageView.image = UIImage(named: "")
+                    userBorderImageView.backgroundColor = UIColor.darkGray
                     notificationNoLabel.isHidden = true
                     notificationImageView.isHidden = true
                     userLabel.textColor = UIColor.darkGray
+                    
                 }
             }
         }
