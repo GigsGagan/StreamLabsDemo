@@ -6,8 +6,11 @@ This README would normally document whatever steps are necessary to get your app
 * Version Required Software(known):
 Xcode 10.2.1 
 
-*Language and version Used:
+* Language and version Used:
 Swift 5
+
+### Demo Video ###
+https://www.dropbox.com/s/lqop0i9bfsuxvmw/StreamLabs.mov?dl=0
 
 ###  Steps to setup code ###
 1. Download the project and unzip
