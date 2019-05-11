@@ -9,10 +9,16 @@
 import Foundation
 import UIKit
 
+struct User {
+    var name: String
+    var notification: Int
+    var type: Int
+}
+
 class UsersViewController: UIViewController {
     
     @IBOutlet weak var userCollectionView: UICollectionView!
-    var userData: [String] = []
+    var userData: [User] = []
     
     // MARK:- AppLifecyle methods
     override func viewDidLoad() {
@@ -21,16 +27,23 @@ class UsersViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
+        dataAllocation()
         setupHomeUI()
         
     }
     
+    func dataAllocation() {
+        let userData1 = User(name: "Feed", notification: 0, type: 2)
+        let userData2 = User(name: "$1k Contest", notification: 0, type: 1)
+        let userData3 = User(name: "Ninja", notification: 3, type: 0)
+        let userData4 = User(name: "pokimane", notification: 7, type: 0)
+        let userData5 = User(name: "DrLupo", notification: 0, type: 0)
+        let userData6 = User(name: "KingRidge", notification: 0, type: 0)
+        userData = [userData1,userData2,userData3,userData4,userData5,userData6]
+    }
+    
     // MARK: - Private Methods
     func setupHomeUI() {
-        
-        userData = ["Feed","$1k Contest","Ninja","pokimane",
-                       "DrLupo", "KingRidge"]
-        
         let channelCollectionCellNib = UINib(nibName: UserCollectionCell.nibName, bundle: nil)
         userCollectionView.register(channelCollectionCellNib, forCellWithReuseIdentifier: UserCollectionCell.cellReuseID)
         userCollectionView.reloadData()

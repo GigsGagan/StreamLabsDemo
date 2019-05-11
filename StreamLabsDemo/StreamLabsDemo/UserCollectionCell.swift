@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
+enum UserType : Int {
+    case Feed = 2, Contest = 1, Streamers = 0
+}
+
 class UserCollectionCell: UICollectionViewCell {
     
     @IBOutlet weak var notificationNoLabel: UILabel!
@@ -29,7 +33,11 @@ class UserCollectionCell: UICollectionViewCell {
         super.prepareForReuse()
         
         userLabel.text = nil
+        notificationNoLabel.text = nil
         userImageView.image = nil
+        notificationImageView.image = nil
+        userBorderImageView.image = nil
+        
     }
     
     override func awakeFromNib() {
@@ -46,9 +54,37 @@ class UserCollectionCell: UICollectionViewCell {
         userBorderImageView.layer.masksToBounds = true
     }
     
-    func setupCell(_ value : String)  {
-        userLabel.text = value
-        let imgName:UIImage = UIImage(named: value)!
-        userImageView.image = imgName
-    }
+    func setupCell(_ value : User?)  {
+        
+        if let userDetails = value {
+            userLabel.text = userDetails.name
+            userImageView.image = UIImage(named: userDetails.name)
+            
+            if userDetails.type == UserType.Contest.rawValue {
+                notificationImageView.image = UIImage(named: "star2")
+                notificationNoLabel.isHidden = true
+                userLabel.textColor = UIColor.white
+                userLabel.font = UIFont(name:"HelveticaNeue-Bold", size: 13.0)
+
+            } else if userDetails.type == UserType.Feed.rawValue {
+                notificationImageView.isHidden = true
+                notificationNoLabel.isHidden = true
+                userLabel.textColor = UIColor.white
+            } else {
+                if userDetails.notification > 1 {
+                    notificationNoLabel.isHidden = false
+                    notificationImageView.isHidden = false
+                    notificationNoLabel.text = String(userDetails.notification)
+                    notificationImageView.image = UIImage(named: "")
+                    userLabel.textColor = UIColor.white
+                } else {
+                    notificationNoLabel.isHidden = true
+                    notificationImageView.isHidden = true
+                    userLabel.textColor = UIColor.darkGray
+                }
+            }
+        }
+    } //end
+    
+    
 }
