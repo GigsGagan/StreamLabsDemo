@@ -92,14 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				CE68A9062285843D00DE8E39 /* AppDelegate.swift */,
-				CEA64F4D22868C82000D1F38 /* UserModel.swift */,
-				CEA64F47228689D9000D1F38 /* UserCollectionCell.swift */,
-				CEA64F48228689D9000D1F38 /* UserCollectionCell.xib */,
-				CEA64F49228689D9000D1F38 /* UsersViewController.swift */,
-				CE68A94522859F8D00DE8E39 /* HomeTableViewCell.swift */,
-				CE68A9472285A0CC00DE8E39 /* HomeTableViewCell.xib */,
-				CE68A9492285A9EB00DE8E39 /* CommentsViewController.swift */,
-				CE68A926228586C800DE8E39 /* HomeViewController.swift */,
+				CEA64F4F2286A2AB000D1F38 /* Model */,
+				CEA64F522286A2DA000D1F38 /* VIewModel */,
+				CEA64F512286A2C7000D1F38 /* ViewControllers */,
+				CEA64F502286A2B8000D1F38 /* Cell */,
 				CE68A90A2285843D00DE8E39 /* Main.storyboard */,
 				CE68A90D2285843E00DE8E39 /* Assets.xcassets */,
 				CE68A90F2285843E00DE8E39 /* LaunchScreen.storyboard */,
@@ -115,6 +111,42 @@
 				CE68A91D2285843E00DE8E39 /* Info.plist */,
 			);
 			path = StreamLabsDemoTests;
+			sourceTree = "<group>";
+		};
+		CEA64F4F2286A2AB000D1F38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEA64F4D22868C82000D1F38 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEA64F502286A2B8000D1F38 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CEA64F47228689D9000D1F38 /* UserCollectionCell.swift */,
+				CEA64F48228689D9000D1F38 /* UserCollectionCell.xib */,
+				CE68A94522859F8D00DE8E39 /* HomeTableViewCell.swift */,
+				CE68A9472285A0CC00DE8E39 /* HomeTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CEA64F512286A2C7000D1F38 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE68A9492285A9EB00DE8E39 /* CommentsViewController.swift */,
+				CEA64F49228689D9000D1F38 /* UsersViewController.swift */,
+				CE68A926228586C800DE8E39 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CEA64F522286A2DA000D1F38 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

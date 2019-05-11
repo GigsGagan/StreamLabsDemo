@@ -33,6 +33,9 @@ class HomeViewController: UIViewController {
         childVC.view.frame = carouselContainer.bounds
         carouselContainer.addSubview(childVC.view)
         childVC.didMove(toParent: self)
+        
+        self.view.bringSubviewToFront(homeTabbar)
+
     }
     
     

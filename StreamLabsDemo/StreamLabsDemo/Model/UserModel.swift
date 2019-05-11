@@ -41,7 +41,9 @@ class Profile {
         let userData4 = UserComments(name: "picachU", comment: "im gon try that!!  😸 😸 😸", score: "")
         let userData5 = UserComments(name: "DrLupo", comment: "I love it", score: "")
         let userData6 = UserComments(name: "KingRidge", comment: "Kepp growing", score: "")
-        let userData = [userData1,userData2,userData3,userData4,userData5,userData6]
+        let userData7 = UserComments(name: "Gagan", comment: "App Looks cool!!!!", score: "")
+
+        let userData = [userData1,userData2,userData3,userData4,userData5,userData6, userData7]
         
         return userData
     }

@@ -30,9 +30,9 @@
                                     <segue destination="vlc-LQ-gnV" kind="embed" id="h8v-zg-e9g"/>
                                 </connections>
                             </containerView>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="khC-fa-or1">
+                            <tabBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khC-fa-or1">
                                 <rect key="frame" x="0.0" y="519" width="320" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="dzN-e9-IEJ"/>
                                 </constraints>
@@ -42,8 +42,8 @@
                                     <tabBarItem image="noti" id="hMe-SM-x40"/>
                                     <tabBarItem image="user" id="ebq-HI-8zh"/>
                                 </items>
-                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="selectedImageTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tabBar>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V6Q-SH-kDG">
                                 <rect key="frame" x="0.0" y="100" width="320" height="419"/>
@@ -318,6 +318,11 @@
                                                 <state key="normal" title="1.3k" image="star3">
                                                     <color key="titleColor" red="0.92156862750000001" green="0.68235294120000001" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAO-nj-Mus">
                                                 <rect key="frame" x="200" y="20.5" width="44" height="29"/>
