@@ -20,6 +20,7 @@
 		CEA64F4B228689D9000D1F38 /* UserCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA64F48228689D9000D1F38 /* UserCollectionCell.xib */; };
 		CEA64F4C228689D9000D1F38 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F49228689D9000D1F38 /* UsersViewController.swift */; };
 		CEA64F4E22868C82000D1F38 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F4D22868C82000D1F38 /* UserModel.swift */; };
+		CEA64F582286CB90000D1F38 /* RippleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F572286CB90000D1F38 /* RippleLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		CEA64F48228689D9000D1F38 /* UserCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCollectionCell.xib; sourceTree = "<group>"; };
 		CEA64F49228689D9000D1F38 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		CEA64F4D22868C82000D1F38 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CEA64F572286CB90000D1F38 /* RippleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				CE68A9062285843D00DE8E39 /* AppDelegate.swift */,
+				CEA64F572286CB90000D1F38 /* RippleLayer.swift */,
 				CEA64F4F2286A2AB000D1F38 /* Model */,
 				CEA64F522286A2DA000D1F38 /* VIewModel */,
 				CEA64F512286A2C7000D1F38 /* ViewControllers */,
@@ -257,6 +260,7 @@
 				CE68A9072285843D00DE8E39 /* AppDelegate.swift in Sources */,
 				CE68A94622859F8D00DE8E39 /* HomeTableViewCell.swift in Sources */,
 				CEA64F4A228689D9000D1F38 /* UserCollectionCell.swift in Sources */,
+				CEA64F582286CB90000D1F38 /* RippleLayer.swift in Sources */,
 				CEA64F4C228689D9000D1F38 /* UsersViewController.swift in Sources */,
 				CE68A94A2285A9EB00DE8E39 /* CommentsViewController.swift in Sources */,
 			);

@@ -9,14 +9,28 @@
 import Foundation
 import UIKit
 
-class CommentsViewController: UIViewController {
+class CommentsViewController: UIViewController, CAAnimationDelegate {
     
+    @IBOutlet weak var pointsLabel: UILabel!
+    @IBOutlet weak var starImageView: UIImageView!
     @IBOutlet weak var shadowView: UIView!
     @IBOutlet weak var bottomUserDetailView: UIView!
     @IBOutlet weak var topVideoView: UIView!
     @IBOutlet weak var homeTableView: UITableView!
     
     var commentsData: [UserComments] = []
+    
+    var aniOneLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont(name: "Helvetica-Bold", size: 20)
+        return label
+    }()
+    
+    var aniTwoLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont(name: "HelveticaNeue-Bold", size: 22)
+        return label
+    }()
     
     // MARK:- AppLifecyle methods
     override func viewDidLoad() {
@@ -26,6 +40,18 @@ class CommentsViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         setupHomeUI()
+        setupAnimation()
+    }
+    
+    func setupAnimation() {
+        self.view.addSubview(aniOneLabel)
+        self.view.addSubview(aniTwoLabel)
+        animateOne(value: "+1")
+        animateOther(value: "+2")
+        let rippleLayer = RippleLayer()
+        rippleLayer.position = CGPoint(x: (UIScreen.main.bounds.width - self.starImageView.frame.size.width)+10, y: self.starImageView.frame.origin.y + 20);
+        self.bottomUserDetailView.layer.addSublayer(rippleLayer)
+        rippleLayer.startAnimation()
     }
     
     // MARK: - Private Methods
@@ -69,4 +95,49 @@ extension CommentsViewController: UITableViewDataSource, UITableViewDelegate {
         return 30
     }
     
+}
+
+// MARK: - Animation
+extension CommentsViewController {
+    
+    func getRandomColor() -> UIColor {
+        let red:CGFloat = CGFloat(drand48())
+        let green:CGFloat = CGFloat(drand48())
+        let blue:CGFloat = CGFloat(drand48())
+        return UIColor(red:red, green: green, blue: blue, alpha: 1.0)
+    }
+    
+    func animateOne(value : String) {
+        aniOneLabel.isHidden = false
+        aniOneLabel.text = value
+        self.aniOneLabel.frame = CGRect(x: self.pointsLabel.frame.origin.x-20, y: UIScreen.main.bounds.height-250, width: 50, height: 50)
+
+        UIView.animate(withDuration: 0.7, animations: {
+            self.aniOneLabel.textColor = self.getRandomColor()
+            self.aniOneLabel.frame = CGRect(x: self.pointsLabel.frame.origin.x-20, y: UIScreen.main.bounds.height-500, width: 50, height: 50)
+        }) { (success) in
+            if success {
+                self.aniOneLabel.isHidden = true
+                let randomInt = Int.random(in: 0..<60)
+                let str = "+" + String(randomInt)
+                self.animateOne(value: str)
+            }
+        }
+    }
+    
+    func animateOther(value : String) {
+        self.aniTwoLabel.text = value
+        self.aniTwoLabel.isHidden = false
+        self.aniTwoLabel.frame = CGRect(x: self.pointsLabel.frame.origin.x+10, y: UIScreen.main.bounds.height-250, width: 50, height: 50)
+        
+        UIView.animate(withDuration: 1.0, animations: {
+            self.aniTwoLabel.textColor = self.getRandomColor()
+            self.aniTwoLabel.frame = CGRect(x: self.pointsLabel.frame.origin.x+10, y: UIScreen.main.bounds.height-500, width: 50, height: 50)
+        }) { (success) in
+            self.aniTwoLabel.isHidden = true
+            let randomInt = Int.random(in: 0..<20)
+            let str = "+" + String(randomInt)
+            self.animateOther(value: str)
+        }
+    } //end
 }

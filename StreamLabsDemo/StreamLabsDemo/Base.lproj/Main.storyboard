@@ -448,7 +448,9 @@
                     <connections>
                         <outlet property="bottomUserDetailView" destination="Ywj-b6-k76" id="W8d-io-4m9"/>
                         <outlet property="homeTableView" destination="Dim-J7-Jga" id="zuk-A5-IID"/>
+                        <outlet property="pointsLabel" destination="07z-CJ-b9w" id="vHG-O6-bw1"/>
                         <outlet property="shadowView" destination="Ywj-b6-k76" id="Tt0-Dn-yV8"/>
+                        <outlet property="starImageView" destination="Mro-Ta-L0Z" id="VnW-ri-VIZ"/>
                         <outlet property="topVideoView" destination="2nf-Mf-u3h" id="JGS-4Q-6vF"/>
                     </connections>
                 </viewController>
