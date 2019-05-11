@@ -7,46 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEA64F2422867C68000D1F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F2322867C68000D1F38 /* AppDelegate.swift */; };
-		CEA64F2622867C68000D1F38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F2522867C68000D1F38 /* ViewController.swift */; };
-		CEA64F2922867C68000D1F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA64F2722867C68000D1F38 /* Main.storyboard */; };
-		CEA64F2B22867C69000D1F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA64F2A22867C69000D1F38 /* Assets.xcassets */; };
-		CEA64F2E22867C69000D1F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA64F2C22867C69000D1F38 /* LaunchScreen.storyboard */; };
-		CEA64F3922867C69000D1F38 /* StreamLabsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F3822867C69000D1F38 /* StreamLabsDemoTests.swift */; };
+		CEA64EEC22866B07000D1F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64EEB22866B07000D1F38 /* AppDelegate.swift */; };
+		CEA64EEE22866B07000D1F38 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64EED22866B07000D1F38 /* HomeViewController.swift */; };
+		CEA64EF122866B07000D1F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA64EEF22866B07000D1F38 /* Main.storyboard */; };
+		CEA64EF322866B08000D1F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA64EF222866B08000D1F38 /* Assets.xcassets */; };
+		CEA64EF622866B08000D1F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA64EF422866B08000D1F38 /* LaunchScreen.storyboard */; };
+		CEA64F0122866B08000D1F38 /* StreamLabsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F0022866B08000D1F38 /* StreamLabsDemoTests.swift */; };
+		CEA64F0C22866BED000D1F38 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F0B22866BED000D1F38 /* UsersViewController.swift */; };
+		CEA64F1122866CBB000D1F38 /* UserCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA64F0F22866CBB000D1F38 /* UserCollectionCell.xib */; };
+		CEA64F1622867AC6000D1F38 /* UserCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA64F1522867AC6000D1F38 /* UserCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CEA64F3522867C69000D1F38 /* PBXContainerItemProxy */ = {
+		CEA64EFD22866B08000D1F38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CEA64F1822867C68000D1F38 /* Project object */;
+			containerPortal = CEA64EE022866B07000D1F38 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEA64F1F22867C68000D1F38;
+			remoteGlobalIDString = CEA64EE722866B07000D1F38;
 			remoteInfo = StreamLabsDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEA64F2022867C68000D1F38 /* StreamLabsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamLabsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEA64F2322867C68000D1F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEA64F2522867C68000D1F38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEA64F2822867C68000D1F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CEA64F2A22867C69000D1F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CEA64F2D22867C69000D1F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CEA64F2F22867C69000D1F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEA64F3422867C69000D1F38 /* StreamLabsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamLabsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEA64F3822867C69000D1F38 /* StreamLabsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamLabsDemoTests.swift; sourceTree = "<group>"; };
-		CEA64F3A22867C69000D1F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA64EE822866B07000D1F38 /* StreamLabsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamLabsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA64EEB22866B07000D1F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA64EED22866B07000D1F38 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CEA64EF022866B07000D1F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA64EF222866B08000D1F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA64EF522866B08000D1F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA64EF722866B08000D1F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA64EFC22866B08000D1F38 /* StreamLabsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamLabsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA64F0022866B08000D1F38 /* StreamLabsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamLabsDemoTests.swift; sourceTree = "<group>"; };
+		CEA64F0222866B08000D1F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA64F0B22866BED000D1F38 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		CEA64F0F22866CBB000D1F38 /* UserCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCollectionCell.xib; sourceTree = "<group>"; };
+		CEA64F1522867AC6000D1F38 /* UserCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CEA64F1D22867C68000D1F38 /* Frameworks */ = {
+		CEA64EE522866B07000D1F38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEA64F3122867C69000D1F38 /* Frameworks */ = {
+		CEA64EF922866B08000D1F38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,42 +62,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEA64F1722867C68000D1F38 = {
+		CEA64EDF22866B07000D1F38 = {
 			isa = PBXGroup;
 			children = (
-				CEA64F2222867C68000D1F38 /* StreamLabsDemo */,
-				CEA64F3722867C69000D1F38 /* StreamLabsDemoTests */,
-				CEA64F2122867C68000D1F38 /* Products */,
+				CEA64EEA22866B07000D1F38 /* StreamLabsDemo */,
+				CEA64EFF22866B08000D1F38 /* StreamLabsDemoTests */,
+				CEA64EE922866B07000D1F38 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CEA64F2122867C68000D1F38 /* Products */ = {
+		CEA64EE922866B07000D1F38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEA64F2022867C68000D1F38 /* StreamLabsDemo.app */,
-				CEA64F3422867C69000D1F38 /* StreamLabsDemoTests.xctest */,
+				CEA64EE822866B07000D1F38 /* StreamLabsDemo.app */,
+				CEA64EFC22866B08000D1F38 /* StreamLabsDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEA64F2222867C68000D1F38 /* StreamLabsDemo */ = {
+		CEA64EEA22866B07000D1F38 /* StreamLabsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CEA64F2322867C68000D1F38 /* AppDelegate.swift */,
-				CEA64F2522867C68000D1F38 /* ViewController.swift */,
-				CEA64F2722867C68000D1F38 /* Main.storyboard */,
-				CEA64F2A22867C69000D1F38 /* Assets.xcassets */,
-				CEA64F2C22867C69000D1F38 /* LaunchScreen.storyboard */,
-				CEA64F2F22867C69000D1F38 /* Info.plist */,
+				CEA64EEB22866B07000D1F38 /* AppDelegate.swift */,
+				CEA64F1522867AC6000D1F38 /* UserCollectionCell.swift */,
+				CEA64F0F22866CBB000D1F38 /* UserCollectionCell.xib */,
+				CEA64F0B22866BED000D1F38 /* UsersViewController.swift */,
+				CEA64EED22866B07000D1F38 /* HomeViewController.swift */,
+				CEA64EEF22866B07000D1F38 /* Main.storyboard */,
+				CEA64EF222866B08000D1F38 /* Assets.xcassets */,
+				CEA64EF422866B08000D1F38 /* LaunchScreen.storyboard */,
+				CEA64EF722866B08000D1F38 /* Info.plist */,
 			);
 			path = StreamLabsDemo;
 			sourceTree = "<group>";
 		};
-		CEA64F3722867C69000D1F38 /* StreamLabsDemoTests */ = {
+		CEA64EFF22866B08000D1F38 /* StreamLabsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEA64F3822867C69000D1F38 /* StreamLabsDemoTests.swift */,
-				CEA64F3A22867C69000D1F38 /* Info.plist */,
+				CEA64F0022866B08000D1F38 /* StreamLabsDemoTests.swift */,
+				CEA64F0222866B08000D1F38 /* Info.plist */,
 			);
 			path = StreamLabsDemoTests;
 			sourceTree = "<group>";
@@ -99,13 +108,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEA64F1F22867C68000D1F38 /* StreamLabsDemo */ = {
+		CEA64EE722866B07000D1F38 /* StreamLabsDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEA64F3D22867C69000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemo" */;
+			buildConfigurationList = CEA64F0522866B08000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemo" */;
 			buildPhases = (
-				CEA64F1C22867C68000D1F38 /* Sources */,
-				CEA64F1D22867C68000D1F38 /* Frameworks */,
-				CEA64F1E22867C68000D1F38 /* Resources */,
+				CEA64EE422866B07000D1F38 /* Sources */,
+				CEA64EE522866B07000D1F38 /* Frameworks */,
+				CEA64EE622866B07000D1F38 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,47 +122,47 @@
 			);
 			name = StreamLabsDemo;
 			productName = StreamLabsDemo;
-			productReference = CEA64F2022867C68000D1F38 /* StreamLabsDemo.app */;
+			productReference = CEA64EE822866B07000D1F38 /* StreamLabsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEA64F3322867C69000D1F38 /* StreamLabsDemoTests */ = {
+		CEA64EFB22866B08000D1F38 /* StreamLabsDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEA64F4022867C69000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemoTests" */;
+			buildConfigurationList = CEA64F0822866B08000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemoTests" */;
 			buildPhases = (
-				CEA64F3022867C69000D1F38 /* Sources */,
-				CEA64F3122867C69000D1F38 /* Frameworks */,
-				CEA64F3222867C69000D1F38 /* Resources */,
+				CEA64EF822866B08000D1F38 /* Sources */,
+				CEA64EF922866B08000D1F38 /* Frameworks */,
+				CEA64EFA22866B08000D1F38 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEA64F3622867C69000D1F38 /* PBXTargetDependency */,
+				CEA64EFE22866B08000D1F38 /* PBXTargetDependency */,
 			);
 			name = StreamLabsDemoTests;
 			productName = StreamLabsDemoTests;
-			productReference = CEA64F3422867C69000D1F38 /* StreamLabsDemoTests.xctest */;
+			productReference = CEA64EFC22866B08000D1F38 /* StreamLabsDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CEA64F1822867C68000D1F38 /* Project object */ = {
+		CEA64EE022866B07000D1F38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Gaganpreet Singh";
 				TargetAttributes = {
-					CEA64F1F22867C68000D1F38 = {
+					CEA64EE722866B07000D1F38 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					CEA64F3322867C69000D1F38 = {
+					CEA64EFB22866B08000D1F38 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = CEA64F1F22867C68000D1F38;
+						TestTargetID = CEA64EE722866B07000D1F38;
 					};
 				};
 			};
-			buildConfigurationList = CEA64F1B22867C68000D1F38 /* Build configuration list for PBXProject "StreamLabsDemo" */;
+			buildConfigurationList = CEA64EE322866B07000D1F38 /* Build configuration list for PBXProject "StreamLabsDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,29 +170,30 @@
 				en,
 				Base,
 			);
-			mainGroup = CEA64F1722867C68000D1F38;
-			productRefGroup = CEA64F2122867C68000D1F38 /* Products */;
+			mainGroup = CEA64EDF22866B07000D1F38;
+			productRefGroup = CEA64EE922866B07000D1F38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEA64F1F22867C68000D1F38 /* StreamLabsDemo */,
-				CEA64F3322867C69000D1F38 /* StreamLabsDemoTests */,
+				CEA64EE722866B07000D1F38 /* StreamLabsDemo */,
+				CEA64EFB22866B08000D1F38 /* StreamLabsDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CEA64F1E22867C68000D1F38 /* Resources */ = {
+		CEA64EE622866B07000D1F38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA64F2E22867C69000D1F38 /* LaunchScreen.storyboard in Resources */,
-				CEA64F2B22867C69000D1F38 /* Assets.xcassets in Resources */,
-				CEA64F2922867C68000D1F38 /* Main.storyboard in Resources */,
+				CEA64F1122866CBB000D1F38 /* UserCollectionCell.xib in Resources */,
+				CEA64EF622866B08000D1F38 /* LaunchScreen.storyboard in Resources */,
+				CEA64EF322866B08000D1F38 /* Assets.xcassets in Resources */,
+				CEA64EF122866B07000D1F38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEA64F3222867C69000D1F38 /* Resources */ = {
+		CEA64EFA22866B08000D1F38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,46 +203,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CEA64F1C22867C68000D1F38 /* Sources */ = {
+		CEA64EE422866B07000D1F38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA64F2622867C68000D1F38 /* ViewController.swift in Sources */,
-				CEA64F2422867C68000D1F38 /* AppDelegate.swift in Sources */,
+				CEA64EEE22866B07000D1F38 /* HomeViewController.swift in Sources */,
+				CEA64F0C22866BED000D1F38 /* UsersViewController.swift in Sources */,
+				CEA64F1622867AC6000D1F38 /* UserCollectionCell.swift in Sources */,
+				CEA64EEC22866B07000D1F38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEA64F3022867C69000D1F38 /* Sources */ = {
+		CEA64EF822866B08000D1F38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA64F3922867C69000D1F38 /* StreamLabsDemoTests.swift in Sources */,
+				CEA64F0122866B08000D1F38 /* StreamLabsDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEA64F3622867C69000D1F38 /* PBXTargetDependency */ = {
+		CEA64EFE22866B08000D1F38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEA64F1F22867C68000D1F38 /* StreamLabsDemo */;
-			targetProxy = CEA64F3522867C69000D1F38 /* PBXContainerItemProxy */;
+			target = CEA64EE722866B07000D1F38 /* StreamLabsDemo */;
+			targetProxy = CEA64EFD22866B08000D1F38 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CEA64F2722867C68000D1F38 /* Main.storyboard */ = {
+		CEA64EEF22866B07000D1F38 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEA64F2822867C68000D1F38 /* Base */,
+				CEA64EF022866B07000D1F38 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CEA64F2C22867C69000D1F38 /* LaunchScreen.storyboard */ = {
+		CEA64EF422866B08000D1F38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEA64F2D22867C69000D1F38 /* Base */,
+				CEA64EF522866B08000D1F38 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -240,7 +252,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CEA64F3B22867C69000D1F38 /* Debug */ = {
+		CEA64F0322866B08000D1F38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,7 +313,7 @@
 			};
 			name = Debug;
 		};
-		CEA64F3C22867C69000D1F38 /* Release */ = {
+		CEA64F0422866B08000D1F38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -356,7 +368,7 @@
 			};
 			name = Release;
 		};
-		CEA64F3E22867C69000D1F38 /* Debug */ = {
+		CEA64F0622866B08000D1F38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -375,7 +387,7 @@
 			};
 			name = Debug;
 		};
-		CEA64F3F22867C69000D1F38 /* Release */ = {
+		CEA64F0722866B08000D1F38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -394,7 +406,7 @@
 			};
 			name = Release;
 		};
-		CEA64F4122867C69000D1F38 /* Debug */ = {
+		CEA64F0922866B08000D1F38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -415,7 +427,7 @@
 			};
 			name = Debug;
 		};
-		CEA64F4222867C69000D1F38 /* Release */ = {
+		CEA64F0A22866B08000D1F38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -439,34 +451,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEA64F1B22867C68000D1F38 /* Build configuration list for PBXProject "StreamLabsDemo" */ = {
+		CEA64EE322866B07000D1F38 /* Build configuration list for PBXProject "StreamLabsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEA64F3B22867C69000D1F38 /* Debug */,
-				CEA64F3C22867C69000D1F38 /* Release */,
+				CEA64F0322866B08000D1F38 /* Debug */,
+				CEA64F0422866B08000D1F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEA64F3D22867C69000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemo" */ = {
+		CEA64F0522866B08000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEA64F3E22867C69000D1F38 /* Debug */,
-				CEA64F3F22867C69000D1F38 /* Release */,
+				CEA64F0622866B08000D1F38 /* Debug */,
+				CEA64F0722866B08000D1F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEA64F4022867C69000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemoTests" */ = {
+		CEA64F0822866B08000D1F38 /* Build configuration list for PBXNativeTarget "StreamLabsDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEA64F4122867C69000D1F38 /* Debug */,
-				CEA64F4222867C69000D1F38 /* Release */,
+				CEA64F0922866B08000D1F38 /* Debug */,
+				CEA64F0A22866B08000D1F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CEA64F1822867C68000D1F38 /* Project object */;
+	rootObject = CEA64EE022866B07000D1F38 /* Project object */;
 }

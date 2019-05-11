@@ -1,24 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="StreamLabsDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m22-xM-bMW">
+                                <rect key="frame" x="0.0" y="20" width="600" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="bCb-QY-XDL"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="EfU-7i-G8F" kind="embed" id="zmz-fP-84y"/>
+                                </connections>
+                            </containerView>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GXc-hK-Dit">
+                                <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="49" id="11p-NN-KQi"/>
+                                    <constraint firstAttribute="height" constant="49" id="J3h-Ta-rrp"/>
+                                </constraints>
+                                <items>
+                                    <tabBarItem image="youtube" id="OSk-oO-ZFc"/>
+                                    <tabBarItem image="glass1" id="oWe-Gc-igQ"/>
+                                    <tabBarItem image="noti" id="kZq-v7-BFU"/>
+                                    <tabBarItem image="user" id="gEc-c8-iAj"/>
+                                </items>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="selectedImageTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GXc-hK-Dit" secondAttribute="trailing" id="Mbz-Hi-gSr"/>
+                            <constraint firstItem="m22-xM-bMW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="O2l-zd-uUl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GXc-hK-Dit" secondAttribute="bottom" id="a5s-U9-kNt"/>
+                            <constraint firstItem="m22-xM-bMW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kb7-Wc-PFl"/>
+                            <constraint firstItem="GXc-hK-Dit" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lX9-BZ-DCq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m22-xM-bMW" secondAttribute="trailing" id="r1b-el-vA4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="carouselContainer" destination="m22-xM-bMW" id="qRd-3X-Ybe"/>
+                        <outlet property="homeTabbar" destination="GXc-hK-Dit" id="5mR-VA-MlR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Users View Controller-->
+        <scene sceneID="P0G-49-czz">
+            <objects>
+                <viewController storyboardIdentifier="UsersViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EfU-7i-G8F" customClass="UsersViewController" customModule="StreamLabsDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bAw-3f-Wtd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Fn0-MG-2kG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="1" minimumInteritemSpacing="1" id="1VV-WP-Tam">
+                                    <size key="itemSize" width="90" height="100"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <connections>
+                                    <outlet property="dataSource" destination="EfU-7i-G8F" id="2LV-DQ-anY"/>
+                                    <outlet property="delegate" destination="EfU-7i-G8F" id="hBh-zE-fXZ"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Fn0-MG-2kG" firstAttribute="leading" secondItem="bAw-3f-Wtd" secondAttribute="leading" id="PIl-gy-Xei"/>
+                            <constraint firstItem="Fn0-MG-2kG" firstAttribute="top" secondItem="bAw-3f-Wtd" secondAttribute="top" id="QbB-5u-SrR"/>
+                            <constraint firstAttribute="bottom" secondItem="Fn0-MG-2kG" secondAttribute="bottom" id="oLP-C2-fiN"/>
+                            <constraint firstAttribute="trailing" secondItem="Fn0-MG-2kG" secondAttribute="trailing" id="pq3-yJ-zXH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AoA-b1-a0M"/>
+                    </view>
+                    <connections>
+                        <outlet property="userCollectionView" destination="Fn0-MG-2kG" id="TAz-ag-TvM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TaK-jA-OgU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1390" y="-224"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="glass1" width="16" height="16"/>
+        <image name="noti" width="16" height="16"/>
+        <image name="user" width="16" height="16"/>
+        <image name="youtube" width="16" height="16"/>
+    </resources>
 </document>
